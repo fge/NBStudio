@@ -23,3 +23,8 @@
 NBStudioCore/nbproject/private
 cachedb/nbproject/private
 nbproject/private
+.idea
+*.iml
+target
+build
+.gradle
