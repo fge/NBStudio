@@ -1,0 +1,33 @@
+apply(plugin: "antlr");
+
+repositories {
+    mavenCentral();
+    maven {
+        url "http://bits.netbeans.org/maven2";
+    }
+}
+
+dependencies {
+    antlr(group: "org.antlr", name: "antlr4", version: "4.5");
+
+    compile project(":cachedb");
+
+    compile(group: "org.netbeans.api", name: "org-openide-util",
+        version: "RELEASE80");
+    compile(group: "org.netbeans.api", name: "org-netbeans-api-search",
+        version: "RELEASE80");
+    compile(group: "org.netbeans.api", name: "org-netbeans-modules-lexer",
+        version: "RELEASE80");
+    compile(group: "org.netbeans.api", name: "org-netbeans-modules-parsing-api",
+        version: "RELEASE80");
+    compile(group: "org.netbeans.api", name: "org-netbeans-modules-editor",
+        version: "RELEASE80");
+    compile(group: "org.netbeans.api",
+        name: "org-netbeans-modules-editor-completion", version: "RELEASE80");
+    compile(group: "org.netbeans.api",
+        name: "org-netbeans-spi-editor-hints", version: "RELEASE80");
+    compile(group: "org.netbeans.api", name: "org-netbeans-core-multiview",
+        version: "RELEASE80");
+    compile(group: "org.netbeans.api", name: "org-netbeans-modules-csl-api",
+        version: "RELEASE80");
+}

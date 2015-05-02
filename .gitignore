@@ -28,3 +28,26 @@ nbproject/private
 target
 build
 .gradle
+
+#
+# Generated from gradle's antlr plugin
+#
+
+/NBStudioCore/src/main/java/org/nbstudio/syntax/cls/clsLexer.java
+/NBStudioCore/src/main/java/org/nbstudio/syntax/cls/clsLexer.tokens
+/NBStudioCore/src/main/java/org/nbstudio/syntax/cls/clsParser.java
+/NBStudioCore/src/main/java/org/nbstudio/syntax/cls/clsParser.tokens
+/NBStudioCore/src/main/java/org/nbstudio/syntax/cls/clsParserBaseListener.java
+/NBStudioCore/src/main/java/org/nbstudio/syntax/cls/clsParserListener.java
+/NBStudioCore/src/main/java/org/nbstudio/syntax/mac/macLexer.java
+/NBStudioCore/src/main/java/org/nbstudio/syntax/mac/macLexer.tokens
+/NBStudioCore/src/main/java/org/nbstudio/syntax/mac/macParser.java
+/NBStudioCore/src/main/java/org/nbstudio/syntax/mac/macParser.tokens
+/NBStudioCore/src/main/java/org/nbstudio/syntax/mac/macParserBaseListener.java
+/NBStudioCore/src/main/java/org/nbstudio/syntax/mac/macParserListener.java
+/NBStudioCore/src/main/java/org/nbstudio/syntax/xdata/xdataLexer.java
+/NBStudioCore/src/main/java/org/nbstudio/syntax/xdata/xdataLexer.tokens
+/NBStudioCore/src/main/java/org/nbstudio/syntax/xdata/xdataParser.java
+/NBStudioCore/src/main/java/org/nbstudio/syntax/xdata/xdataParser.tokens
+/NBStudioCore/src/main/java/org/nbstudio/syntax/xdata/xdataParserBaseListener.java
+/NBStudioCore/src/main/java/org/nbstudio/syntax/xdata/xdataParserListener.java
