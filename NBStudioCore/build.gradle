@@ -7,10 +7,14 @@ repositories {
     }
 }
 
+def resourcesJar = "nbresources.jar";
+
 dependencies {
     antlr(group: "org.antlr", name: "antlr4", version: "4.5");
 
     compile project(":cachedb");
+
+    compile files("lib/" + resourcesJar);
 
     compile(group: "org.netbeans.api", name: "org-openide-util",
         version: "RELEASE80");
@@ -31,3 +35,14 @@ dependencies {
     compile(group: "org.netbeans.api", name: "org-netbeans-modules-csl-api",
         version: "RELEASE80");
 }
+
+task nbresources(type: Jar) {
+    from fileTree("src/main/java") {
+        include "**/*";
+        exclude "**/*.java";
+    };
+    destinationDir new File("lib");
+    archiveName resourcesJar;
+}
+
+compileJava.dependsOn(nbresources);
